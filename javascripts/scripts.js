@@ -1,1 +1,1 @@
-var protocol=window.location.protocol,url=window.location.href.substring(protocol.length);console.log("This is FullAudience.");
+var protocol=window.location.protocol,url=window.location.href.substring(protocol.length);console.log("This is FullAudience."),"http:"==protocol&&window.location.replace("https:"+url);
